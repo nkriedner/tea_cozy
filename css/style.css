@@ -43,3 +43,26 @@ header nav ul li {
 header nav ul li a {
   color: seashell;
 }
+
+
+/* MISSION SECTION Styling */
+
+section#mission {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../img/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+}
+
+section#mission div {
+  width: 100%;
+  background-color: black;
+}
+
