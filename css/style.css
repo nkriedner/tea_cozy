@@ -134,3 +134,15 @@ section#locations div div {
 section#locations div div h3 {
   margin: 0;
 }
+
+
+/* FOOTER Styling */
+
+footer div {
+  height: 200px;
+}
+
+footer > h5 {
+  text-align: left;
+  margin-left: 20px;
+}
