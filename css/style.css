@@ -1,5 +1,5 @@
 
-/* BODY Styling */
+/* GENERAL Styling */
 
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
@@ -8,6 +8,10 @@ body {
   opacity: 0.9;
   color: seashell;
   text-align: center;
+}
+
+.flex {
+  display: flex;
 }
 
 
@@ -19,7 +23,6 @@ header {
   position: fixed;
   z-index: 10;
   background-color: black;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
@@ -31,7 +34,6 @@ header img {
 }
 
 header nav ul {
-  display: flex;
   list-style-type: none;
 }
 
@@ -55,7 +57,6 @@ section#mission {
   background-repeat: no-repeat;
   background-position: 50% 10%;
   background-size: cover;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 69px;
@@ -76,7 +77,6 @@ section#featured-tea {
 }
 
 section#featured-tea div {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -116,7 +116,6 @@ section#locations h2 {
 }
 
 section#locations div {
-  display: flex;
   justify-content: center;
 }
 
@@ -126,7 +125,6 @@ section#locations div div {
   background-color: black;
   opacity: 1;
   margin: 0 20px;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
