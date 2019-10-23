@@ -66,3 +66,32 @@ section#mission div {
   background-color: black;
 }
 
+
+/* FEATURED TEA SECTION Styling */
+
+section#featured-tea {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+section#featured-tea div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  width: 300px;
+  margin: 15px;
+}
+
+figure img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+figure figcaption {
+  font-weight: bold;
+}
