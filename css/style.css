@@ -95,3 +95,42 @@ figure img {
 figure figcaption {
   font-weight: bold;
 }
+
+
+/* LOCATIONS SECTION Styling */
+
+section#locations {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url(../img/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+  margin-top: 70px;
+}
+
+section#locations h2 {
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+section#locations div {
+  display: flex;
+  justify-content: center;
+}
+
+section#locations div div {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section#locations div div h3 {
+  margin: 0;
+}
